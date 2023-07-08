@@ -146,7 +146,22 @@ namespace CurrencyConvert
             txtCurrency.Focus();
         }
 
-     
+
         #endregion
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void dgvCurrency_SelectedCellsChanged(object sender, System.Windows.Controls.SelectedCellsChangedEventArgs e)
+        {
+
+        }
     }
 }
